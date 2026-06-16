@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/badge/license-GPL-green.svg)](COPYING.md)
 [![Platform](https://img.shields.io/badge/platform-Linux%20x86__64-orange.svg)]()
 
-A high-level library for managing Turnstile sessions — a lightweight Linux session manager inspired by systemd-logind.
+A high-level library for managing Turnstile sessions — a lightweight Linux session manager.
 
 ## 📋 Features
 
