@@ -1,0 +1,9 @@
+{
+    global:
+        sd_bus_*;
+        sd_pid_*;
+        sd_login_*;
+        elogind_*;
+    local:
+        *;
+};

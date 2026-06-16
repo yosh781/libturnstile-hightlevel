@@ -1,0 +1,50 @@
+option('dinit',
+    type: 'feature', value: 'enabled',
+    description: 'Whether to install Dinit-related backend and data'
+)
+
+option('runit',
+    type: 'feature', value: 'disabled',
+    description: 'Whether to install runit-related backend and data'
+)
+
+option('default_backend',
+    type: 'string', value: '',
+    description: 'Override the default backend'
+)
+
+option('rundir',
+    type: 'string', value: '/run',
+    description: 'Where the base directory will be located'
+)
+
+option('statedir',
+    type: 'string', value: 'lib/turnstiled',
+    description: 'The state directory relative to localstatedir'
+)
+
+option('pamdir',
+    type: 'string', value: '',
+    description: 'Override the path where PAM files go'
+)
+
+option('pam_moddir',
+    type: 'string', value: '',
+    description: 'Where to install the PAM module (leave empty to autodetect)'
+)
+
+option('manage_rundir',
+    type: 'boolean', value: false,
+    description: 'Whether to manage rundir by default'
+)
+
+option('man',
+    type: 'boolean', value: true,
+    description: 'Whether to generate manpages'
+)
+
+option('library',
+    type: 'feature', value: 'disabled',
+    description: 'Whether to build the library'
+)
+option('highlevel-api', type: 'boolean', value: true, description: 'Build high-level API library')

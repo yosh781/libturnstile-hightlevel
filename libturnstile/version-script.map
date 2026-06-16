@@ -1,0 +1,27 @@
+{
+global:
+    turnstile_get_sessions;
+    turnstile_get_user_sessions;
+    turnstile_get_session_by_id;
+    turnstile_free_sessions;
+    turnstile_stop_session;
+    turnstile_stop_all_sessions;
+    turnstile_get_runtime_dir;
+    turnstile_create_session;
+    turnstile_release_session;
+    turnstile_activate_session;
+    turnstile_set_session_state;
+    turnstile_set_session_idle;
+    turnstile_get_session_by_pid;
+    turnstile_get_seats;
+    turnstile_get_active_seat;
+    turnstile_get_active_vtnr;
+    turnstile_get_seat_info;
+    turnstile_free_seat_info;
+    turnstile_setup_runtime_dir;
+    turnstile_cleanup_runtime_dir;
+    turnstile_session_is_graphical;
+    turnstile_session_get_display_string;
+local:
+    *;
+};
