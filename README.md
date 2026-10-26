@@ -185,11 +185,5 @@ Improved error handling
 
 Additional architecture support
 
-📞 Contact
+
 Author: yosh781
-
-Email: valera@mxd
-
-GitHub: github.com/yosh781/libturnstile-highlevel
-
-⚡ Fast. Lightweight. Turnstile.
